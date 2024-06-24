@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  header {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+  }
+  header .nav .logo {
+    align-items: center;
+    margin: auto;
+  }
+  header .nav ul li a {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .product-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact {
+    display: none;
+  }
+}
